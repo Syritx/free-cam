@@ -11,6 +11,9 @@ namespace FreeCam
         public Vector3 up = new Vector3(0.0f, .01f, 0.0f);
 
         bool canRotate;
+        
+        // xRotation: Up/Down rotation
+        // yRotation: Left/Right rotation
         float xRotation, yRotation;
         float speed = 5, sensitivity = .5f;
 
